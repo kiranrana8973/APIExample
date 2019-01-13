@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">APIExample</string>
+    <string name="title_activity_tour_of_hero">TourOfHero</string>
+</resources>

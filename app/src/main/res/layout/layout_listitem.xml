@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/noimage"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblName"
+        android:textSize="18sp"
+        android:text="Name"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/avatar"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblRealName"
+        android:textSize="18sp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_below="@id/lblName"
+        android:text="Real name"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblSuperPowers"
+        android:textSize="18sp"
+        android:text="Super Powers"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_below="@+id/lblRealName"
+        android:textStyle="italic"
+        />
+</RelativeLayout>
